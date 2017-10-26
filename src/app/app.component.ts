@@ -9,7 +9,7 @@ import { ChuckNorrisJokesService } from "./services/chuck-norris-jokes.service";
 export class AppComponent implements OnInit{
   title = 'app';
   counter = 0;
-  lapse = 10;
+  lapse = 6;
   seconds = this.lapse;
   joke: any;
 
