@@ -28,7 +28,7 @@ export class AppComponent implements OnInit{
       this.seconds = 0;
     }
     this.chuckNorrisService.getNewJoke().subscribe( response => {
-      this.joke = response;      
+      this.joke = response;
     });
   }
 
