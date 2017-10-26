@@ -1,0 +1,33 @@
+.container {
+  background-color: #59db57;
+  border-radius: 10px;
+  margin-top: 5%;
+  max-width: 800px;
+  position: relative;
+}
+
+.container img {
+  opacity: 0.5;
+}
+
+blockquote {
+  border: 2px dashed #000;
+  margin-top: 1em;
+  color: #000;
+  opacity: .5;
+  border-radius: 12px;
+  font-family: serif;
+  text-align: center;
+
+}
+.timer {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  left: calc(50% - 17px);
+  top: 84px;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding: 0.6% 1.5%;
+  background-color: #97E996;
+}
